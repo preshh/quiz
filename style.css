@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+header {
+    background-image: linear-gradient(to right, rgb(0, 55, 128), rgb(146, 28, 201));
+    padding: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: aliceblue;
+    font-size: 1.6em;
+}
+header p {
+    margin-left: 15px;
+}
+h4{
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+button{
+    border-radius: 2px;
+    display: inline;
+
+}
+.green{
+    background-color: greenyellow;
+}
+.instructions {
+    margin: 0 auto;
+    background-color: rgb(127, 127, 204);
+    font-size: 1.3em;
+    text-align: center;
+    width: 50%;
+    border-radius: 12px;
+    padding: 4px;
+}
+#displayQuestion{
+    margin: 0 auto;
+    width: 50%;
+}
+#quizbody {
+    margin: 0 auto;
+    width: 50%;
+}
+#question2, #question3, #question4, #question5 {
+    display: none;
+}
+#previous {
+    display: none;
+}
+footer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to left, rgb(0, 55, 128), rgb(146, 28, 201));
+    text-align: center;
+
+}
